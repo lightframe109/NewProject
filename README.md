@@ -1,12 +1,6 @@
 
 <h1>
     <img src="https://i.imgur.com/G6Mleco.png"> Ryujinx
-    <a href="https://ci.appveyor.com/project/gdkchan/ryujinx?branch=master" target="_blank">
-        <img src="https://ci.appveyor.com/api/projects/status/ssg4jwu6ve3k594s/branch/master?svg=true">
-    </a>
-    <a href="https://discord.gg/Ryujinx">
-        <img src="https://img.shields.io/discord/410208534861447168.svg">
-    </a>
 </h1>
 
 <p align="center">
@@ -111,3 +105,5 @@ See [LICENSE.txt](LICENSE.txt) and [THIRDPARTY.md](Ryujinx/THIRDPARTY.md) for mo
 nog een keer met de plugin, maar nu ook met pull request enabled in de sqplayground
 
 another setting
+
+PR 001
