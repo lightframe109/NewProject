@@ -1,0 +1,1193 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.HLE\\Ryujinx.HLE.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pherm\\temp\\testproject\\ARMeilleure\\ARMeilleure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pherm\\temp\\testproject\\ARMeilleure\\ARMeilleure.csproj",
+        "projectName": "ARMeilleure",
+        "projectPath": "C:\\Users\\pherm\\temp\\testproject\\ARMeilleure\\ARMeilleure.csproj",
+        "packagesPath": "C:\\Users\\pherm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pherm\\temp\\testproject\\ARMeilleure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pherm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Mono.Posix.NETStandard": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Audio\\Ryujinx.Audio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Audio\\Ryujinx.Audio.csproj",
+        "projectName": "Ryujinx.Audio",
+        "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Audio\\Ryujinx.Audio.csproj",
+        "packagesPath": "C:\\Users\\pherm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Audio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pherm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Cpu\\Ryujinx.Cpu.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Cpu\\Ryujinx.Cpu.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Memory\\Ryujinx.Memory.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Memory\\Ryujinx.Memory.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj",
+        "projectName": "Ryujinx.Common",
+        "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj",
+        "packagesPath": "C:\\Users\\pherm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pherm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MsgPack.Cli": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Cpu\\Ryujinx.Cpu.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Cpu\\Ryujinx.Cpu.csproj",
+        "projectName": "Ryujinx.Cpu",
+        "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Cpu\\Ryujinx.Cpu.csproj",
+        "packagesPath": "C:\\Users\\pherm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Cpu\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pherm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\pherm\\temp\\testproject\\ARMeilleure\\ARMeilleure.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\ARMeilleure\\ARMeilleure.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Memory\\Ryujinx.Memory.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Memory\\Ryujinx.Memory.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Device\\Ryujinx.Graphics.Device.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Device\\Ryujinx.Graphics.Device.csproj",
+        "projectName": "Ryujinx.Graphics.Device",
+        "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Device\\Ryujinx.Graphics.Device.csproj",
+        "packagesPath": "C:\\Users\\pherm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Device\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pherm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.GAL\\Ryujinx.Graphics.GAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.GAL\\Ryujinx.Graphics.GAL.csproj",
+        "projectName": "Ryujinx.Graphics.GAL",
+        "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.GAL\\Ryujinx.Graphics.GAL.csproj",
+        "packagesPath": "C:\\Users\\pherm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.GAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pherm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Shader\\Ryujinx.Graphics.Shader.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Shader\\Ryujinx.Graphics.Shader.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Gpu\\Ryujinx.Graphics.Gpu.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Gpu\\Ryujinx.Graphics.Gpu.csproj",
+        "projectName": "Ryujinx.Graphics.Gpu",
+        "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Gpu\\Ryujinx.Graphics.Gpu.csproj",
+        "packagesPath": "C:\\Users\\pherm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Gpu\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pherm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Cpu\\Ryujinx.Cpu.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Cpu\\Ryujinx.Cpu.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Device\\Ryujinx.Graphics.Device.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Device\\Ryujinx.Graphics.Device.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.GAL\\Ryujinx.Graphics.GAL.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.GAL\\Ryujinx.Graphics.GAL.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Shader\\Ryujinx.Graphics.Shader.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Shader\\Ryujinx.Graphics.Shader.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Texture\\Ryujinx.Graphics.Texture.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Texture\\Ryujinx.Graphics.Texture.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Host1x\\Ryujinx.Graphics.Host1x.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Host1x\\Ryujinx.Graphics.Host1x.csproj",
+        "projectName": "Ryujinx.Graphics.Host1x",
+        "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Host1x\\Ryujinx.Graphics.Host1x.csproj",
+        "packagesPath": "C:\\Users\\pherm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Host1x\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pherm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Device\\Ryujinx.Graphics.Device.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Device\\Ryujinx.Graphics.Device.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Gpu\\Ryujinx.Graphics.Gpu.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Gpu\\Ryujinx.Graphics.Gpu.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Nvdec.H264\\Ryujinx.Graphics.Nvdec.H264.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Nvdec.H264\\Ryujinx.Graphics.Nvdec.H264.csproj",
+        "projectName": "Ryujinx.Graphics.Nvdec.H264",
+        "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Nvdec.H264\\Ryujinx.Graphics.Nvdec.H264.csproj",
+        "packagesPath": "C:\\Users\\pherm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Nvdec.H264\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pherm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Video\\Ryujinx.Graphics.Video.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Video\\Ryujinx.Graphics.Video.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FFmpeg.AutoGen": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Nvdec.Vp9\\Ryujinx.Graphics.Nvdec.Vp9.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Nvdec.Vp9\\Ryujinx.Graphics.Nvdec.Vp9.csproj",
+        "projectName": "Ryujinx.Graphics.Nvdec.Vp9",
+        "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Nvdec.Vp9\\Ryujinx.Graphics.Nvdec.Vp9.csproj",
+        "packagesPath": "C:\\Users\\pherm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Nvdec.Vp9\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pherm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Video\\Ryujinx.Graphics.Video.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Video\\Ryujinx.Graphics.Video.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Nvdec\\Ryujinx.Graphics.Nvdec.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Nvdec\\Ryujinx.Graphics.Nvdec.csproj",
+        "projectName": "Ryujinx.Graphics.Nvdec",
+        "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Nvdec\\Ryujinx.Graphics.Nvdec.csproj",
+        "packagesPath": "C:\\Users\\pherm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Nvdec\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pherm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Device\\Ryujinx.Graphics.Device.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Device\\Ryujinx.Graphics.Device.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Gpu\\Ryujinx.Graphics.Gpu.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Gpu\\Ryujinx.Graphics.Gpu.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Nvdec.H264\\Ryujinx.Graphics.Nvdec.H264.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Nvdec.H264\\Ryujinx.Graphics.Nvdec.H264.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Nvdec.Vp9\\Ryujinx.Graphics.Nvdec.Vp9.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Nvdec.Vp9\\Ryujinx.Graphics.Nvdec.Vp9.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Texture\\Ryujinx.Graphics.Texture.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Texture\\Ryujinx.Graphics.Texture.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Video\\Ryujinx.Graphics.Video.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Video\\Ryujinx.Graphics.Video.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Shader\\Ryujinx.Graphics.Shader.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Shader\\Ryujinx.Graphics.Shader.csproj",
+        "projectName": "Ryujinx.Graphics.Shader",
+        "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Shader\\Ryujinx.Graphics.Shader.csproj",
+        "packagesPath": "C:\\Users\\pherm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Shader\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pherm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Texture\\Ryujinx.Graphics.Texture.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Texture\\Ryujinx.Graphics.Texture.csproj",
+        "projectName": "Ryujinx.Graphics.Texture",
+        "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Texture\\Ryujinx.Graphics.Texture.csproj",
+        "packagesPath": "C:\\Users\\pherm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Texture\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pherm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Vic\\Ryujinx.Graphics.Vic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Vic\\Ryujinx.Graphics.Vic.csproj",
+        "projectName": "Ryujinx.Graphics.Vic",
+        "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Vic\\Ryujinx.Graphics.Vic.csproj",
+        "packagesPath": "C:\\Users\\pherm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Vic\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pherm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Device\\Ryujinx.Graphics.Device.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Device\\Ryujinx.Graphics.Device.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Gpu\\Ryujinx.Graphics.Gpu.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Gpu\\Ryujinx.Graphics.Gpu.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Host1x\\Ryujinx.Graphics.Host1x.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Host1x\\Ryujinx.Graphics.Host1x.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Texture\\Ryujinx.Graphics.Texture.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Texture\\Ryujinx.Graphics.Texture.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Video\\Ryujinx.Graphics.Video.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Video\\Ryujinx.Graphics.Video.csproj",
+        "projectName": "Ryujinx.Graphics.Video",
+        "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Video\\Ryujinx.Graphics.Video.csproj",
+        "packagesPath": "C:\\Users\\pherm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Video\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pherm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.HLE\\Ryujinx.HLE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.HLE\\Ryujinx.HLE.csproj",
+        "projectName": "Ryujinx.HLE",
+        "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.HLE\\Ryujinx.HLE.csproj",
+        "packagesPath": "C:\\Users\\pherm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.HLE\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pherm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\pherm\\temp\\testproject\\ARMeilleure\\ARMeilleure.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\ARMeilleure\\ARMeilleure.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Audio\\Ryujinx.Audio.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Audio\\Ryujinx.Audio.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Cpu\\Ryujinx.Cpu.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Cpu\\Ryujinx.Cpu.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.GAL\\Ryujinx.Graphics.GAL.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.GAL\\Ryujinx.Graphics.GAL.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Gpu\\Ryujinx.Graphics.Gpu.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Gpu\\Ryujinx.Graphics.Gpu.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Host1x\\Ryujinx.Graphics.Host1x.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Host1x\\Ryujinx.Graphics.Host1x.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Nvdec\\Ryujinx.Graphics.Nvdec.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Nvdec\\Ryujinx.Graphics.Nvdec.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Vic\\Ryujinx.Graphics.Vic.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Graphics.Vic\\Ryujinx.Graphics.Vic.csproj"
+              },
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Memory\\Ryujinx.Memory.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Memory\\Ryujinx.Memory.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1605"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Concentus": {
+              "target": "Package",
+              "version": "[1.1.7, )"
+            },
+            "LibHac": {
+              "target": "Package",
+              "version": "[0.12.0, )"
+            },
+            "MsgPack.Cli": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Memory\\Ryujinx.Memory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Memory\\Ryujinx.Memory.csproj",
+        "projectName": "Ryujinx.Memory",
+        "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Memory\\Ryujinx.Memory.csproj",
+        "packagesPath": "C:\\Users\\pherm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Memory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pherm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj": {
+                "projectPath": "C:\\Users\\pherm\\temp\\testproject\\Ryujinx.Common\\Ryujinx.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Mono.Posix.NETStandard": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
