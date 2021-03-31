@@ -14,7 +14,7 @@ jobs:
           fetch-depth: '0'
       - run: git fetch origin develop
         name: Fetching develop branch
-      - uses: pherms/sonarscan-dotnet@main
+      - uses: highbyte/sonarscan-dotnet@2.0
         name: SonarScanner for .NET 5 with pull request decoration support
         with:
           # The key of the SonarQube project
