@@ -21,7 +21,7 @@ jobs:
           sonarProjectKey: NewProject
           # The name of the SonarQube project
           sonarProjectName:  "newproject"
-          dotnetBuildArguments: 
+          dotnetBuildArguments: Ryujinx/sln
           dotnetDisableTests: '1'
           # The SonarQube server URL. For SonarCloud, skip this setting.
           sonarHostname:  https://codequality.xablu.com
